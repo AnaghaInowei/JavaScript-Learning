@@ -6,7 +6,10 @@
     <title>JavaScript</title>
 </head>
 <body>
-    <script>
+    <p>Todo Lists</p>
+    <input type="text" class="todo-input" placeholder="Todo name">
+    <button onclick="addTodo();">Add</button>
+    <script src="/index.js">
         /*
         const todoList = [
             'make dinner',
@@ -20,24 +23,24 @@
         }*/
 
         // Accumulation pattern  
-       const nums = [1,1,3];
-       let total = 0;
+    //    const nums = [1,1,3];
+    //    let total = 0;
 
-        for (i = 0; i < nums.length; i++) {
-           const num = nums[i]; //gets the number at each index
-           total += num;
-        }
+    //     for (i = 0; i < nums.length; i++) {
+    //        const num = nums[i]; //gets the number at each index
+    //        total += num;
+    //     }
 
-        console.log(total);
+    //     console.log(total);
 
-        let numsDoubled = [];
+    //     let numsDoubled = [];
 
-        for (i = 0; i < nums.length; i++) {
-            const num = nums[i]; //gets the number at each index
-            numsDoubled.push(num * 2)
-        }
+    //     for (i = 0; i < nums.length; i++) {
+    //         const num = nums[i]; //gets the number at each index
+    //         numsDoubled.push(num * 2); 
+    //     }
 
-        console.log(numsDoubled)
+    //     console.log(numsDoubled)
     </script>
 </body>
 </html>
